@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* animasi navbar desktop */
+  .ComponentsNavbar {
+    @apply absolute bottom-0 w-2 h-px bg-white group-hover:w-full group-hover:bg-red-800 transition-all duration-1000 ease-in-out;
+  }
+
+  /* components services */
+  .Services {
+    @apply shadow-sm shadow-black/60 px-5 py-4 rounded-2xl hover:bg-[darkslateblue] hover:text-white transition-all duration-300 ease-in-out;
+  }
+
+  /* components menu */
+  .Menu {
+    @apply snap-start snap-always scroll-pl-6 p-3 rounded-xl shadow-md shadow-black/70 flex flex-col justify-between;
+  }
+}
