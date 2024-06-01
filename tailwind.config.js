@@ -5,6 +5,9 @@ module.exports = {
     fontFamily: {
       
     },
+    container: {
+      center: true
+    },
     extend: {},
   },
   plugins: [],
