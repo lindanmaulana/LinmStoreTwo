@@ -947,12 +947,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\.\.\/public\/images\/contact-image\.jpg\)\] {
-  background-image: url(../public/images/contact-image.jpg);
+.bg-\[url\(\'\/public\/images\/home-image\.jpg\'\)\] {
+  background-image: url('/public/images/home-image.jpg');
 }
 
-.bg-\[url\(\.\.\/public\/images\/home-image\.jpg\)\] {
-  background-image: url(../public/images/home-image.jpg);
+.bg-\[url\(\.\.\/public\/images\/contact-image\.jpg\)\] {
+  background-image: url(../public/images/contact-image.jpg);
 }
 
 .bg-\[url\(\.\/images\/about-image\.jpg\)\] {
@@ -961,6 +961,34 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(g\)\] {
+  background-image: url(g);
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/public\/\'\)\] {
+  background-image: url('/public/');
+}
+
+.bg-\[url\(\'\/public\/images\/\'\)\] {
+  background-image: url('/public/images/');
+}
+
+.bg-\[url\(\'\/public\/images\/about-image\'\)\] {
+  background-image: url('/public/images/about-image');
+}
+
+.bg-\[url\(\'\/public\/images\/about-image\.jpg\'\)\] {
+  background-image: url('/public/images/about-image.jpg');
+}
+
+.bg-\[url\(\/public\/images\/contact-image\.jpg\)\] {
+  background-image: url(/public/images/contact-image.jpg);
 }
 
 .from-black\/50 {
